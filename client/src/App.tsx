@@ -1,10 +1,11 @@
-import './lib/styles/index.scss';
+import { Layout } from './features/Layout/Layout';
+import { MainPage } from './pages/MainPage';
 function App() {
 
   return (
-    <>
-    Template
-      </>
+    <Layout>
+      <MainPage/>
+    </Layout>
   )
 }
 
